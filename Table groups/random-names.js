@@ -17,6 +17,11 @@ function keyPressed() {
   text(words,100,100);
   if (keyCode === LEFT_ARROW) {
     words.splice(1,1);
-    text(words,200,200);
+    text(random(words),100,150);
+    words.splice(1,1);
+    text(random(words),100,200);
+    words.splice(1,1);
+    text(random(words),100,250);
   }
+
 }
